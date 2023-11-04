@@ -31,9 +31,14 @@
     align-items: center;
     background: #642020;
     box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
-    padding-top: 80px;
-
+    padding-top: 120px;
 }
+@media (max-height: 810px) {
+    .wrapper {
+        padding-top: 20px
+    }
+}
+
 .upper {
     display: flex;
     flex-direction: row;
@@ -45,12 +50,13 @@
     padding: 34px 34px 50px 34px;
     border-radius: 40px;
     z-index: 10;
-    width: 520px;
-    height: 780px;
-    margin-bottom: -300px;
+    width: 420px;
+    height: 680px;
+    margin-bottom: -200px;
     filter: drop-shadow(15px 15px 15px rgba(0, 0, 0, 10));
-    
 }
+@media (min-width: 1280px) {
+    }
 
 .song_data {
     padding-left: 6px;
@@ -153,7 +159,6 @@
     background-color: #642020;
     rotate: 180deg;
     .line {
-        width: 15px;
         /* border-radius: 0 0 5px 5px; */
         background: #D33D34;
     }

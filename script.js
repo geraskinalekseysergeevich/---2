@@ -14,8 +14,12 @@ const player = document.querySelector('.player'),
     songAutor = document.querySelector('.autor')
 
 // массив названий песен
-const songs = ['Show Must Go On', 'Empire State Of Mind', 'Юность-89', 'Back To Black', 'Moscow Never Sleeps', 'I Will Survive', 'Dangerous Woman']
-const autors = ['Queen', 'Jay-Z, Alicia Keys', 'ATL', 'Amy Winehouse', 'DJ Smash', 'Gloria Gaynor', 'Ariana Grande'] 
+const songs = ['Show Must Go On', 'Empire State Of Mind', 'Юность-89',
+    'Back To Black', 'Moscow Never Sleeps', 'I Will Survive',
+    'Dangerous Woman', 'I Was Made For Lovin You']
+const autors = ['Queen', 'Jay-Z, Alicia Keys', 'ATL',
+    'Amy Winehouse', 'DJ Smash', 'Gloria Gaynor',
+    'Ariana Grande', 'Kiss']
 
 // песня по умолчанию
 let song_index = 0
