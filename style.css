@@ -47,11 +47,11 @@
 .player {
     width: 400px;
     background: #3C1616;
-    padding: 34px 34px 50px 34px;
-    border-radius: 40px;
+    padding: 27px 27px 27px 27px;
+    border-radius: 32px;
     z-index: 10;
     width: 420px;
-    height: 680px;
+    height: 628px;
     margin-bottom: -200px;
     filter: drop-shadow(15px 15px 15px rgba(0, 0, 0, 10));
 }
@@ -60,21 +60,21 @@
 
 .song_data {
     padding-left: 6px;
-    padding-top: 35px;
+    padding-top: 33px;
     .song_title {
         color: #FFFFFF;
-        font-size: 30px;
+        font-size: 23px;
         text-align: left;
         font-weight: 600;
-        line-height: 36px;
+        line-height: 21px;
     }
     .autor {
         color: #FFFFFF;
-        font-size: 20px;
+        font-size: 15px;
         font-weight: 400;
-        padding-top: 14px;
-        line-height: 24px;
+        padding-top: 12px;
         text-transform: uppercase;
+        line-height: 12px;
     }
 }
 
@@ -88,37 +88,37 @@
 }
 
 .timeline {
-    margin-top: 45px;
     display: flex;
     width: 100%;
     justify-content: space-between;
     align-items: center;
-    padding: 0px 16px 0px 16px;
+    padding: 40px 16px 0px 16px;
     .time {
         color: #FFF;
+        font-size: 12px;
     }
     .current_time {
         width: 100%;
-        max-width: 33px;
+        max-width: 25px;
     }
     .progress_bar {
-        height: 7px;
+        height: 5px;
         background-color: #FFF;
         cursor: pointer;
         width: 100%;
         display: flex;
         align-items: center;
-        margin: 0px 20px 0px 20px;
+        margin: 0px 10px 0px 10px;
         border-radius: 3px 3px 3px 3px;
         .progress {
-            height: 9px;
+            height: 5px;
             margin-left: -1px;
             background-color: #BE0D00;
             border-radius: 5px 0px 0px 5px;
         }
         .dot {
-            width: 13px;
-            height: 13px;
+            width: 10px;
+            height: 10px;
             border-radius: 50%;
             background-color: #BE0D00;
             margin-left: -2px;
@@ -132,23 +132,23 @@
     justify-content: space-between;
     align-items: center;
     width: 100%;
-    padding: 30px 16px 0px 16px;
+    padding: 32px 16px 0px 16px;
     .btn {
         cursor: pointer;
     }
     .btn_img {
-        height: 40px;
+        height: 29px;
     }
     .shuffle_btn, .sound_btn {
-        max-width: 25px;
+        height: 18px;
     }
     .next_img, .prev_img {
-        width: 39px;
-        height: 36px;
+        width: 31px;
+        height: 29px;
     }
     .play_btn {
-        width: 39px;
-        height: 45px;
+        width: 31px;
+        height: 37px;
     }
 }
 

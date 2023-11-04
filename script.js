@@ -159,7 +159,7 @@ function animator(array) {
         // получаем ширину экрана
         let screenWidth = window.innerWidth
         // вычитаем ширину блока 'player'
-        let currentWidth = screenWidth - 520
+        let currentWidth = screenWidth - 420
         // вычисляем значение высоты для столбика
         let num = newArray[parseInt(newArray.length / right_side.length * i)]
 
