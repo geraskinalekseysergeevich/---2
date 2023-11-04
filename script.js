@@ -207,3 +207,6 @@ function setProgress(event) {
     audio.currentTime = clickCoord / barWidth * duration
 }
 progressBar.addEventListener('click', setProgress)
+
+// автопроигрывание
+audio.addEventListener('ended', nextSong)
